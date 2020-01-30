@@ -1,0 +1,23 @@
+{{> header }} <!-- estas etiquetas se encuentra realizada dentro de la carpeta parciales, la cual la llamamos de {{"> nombre de tu hbs"}}, esta forma de llamado nos ayuda reutilizar codigo -->
+
+   {{> navbar }}
+   <!-- este es el cuerpo de about lo que se muestra en la pagina con sus diferentes etiquetas para poder llamar a cada componente-->
+    <div class="row">   <!-- esta etiqueta nos ayuda a dividir en una fila-->
+
+        <div class="col-8"> <!-- esta etiqueta nos ayuda a formar una columna -->
+            <h1>Liga de Quito</h1> <!-- la etiqueta h es para los titulos, y es acompañado de un numero para dar una ponderacion a ese titulo y en la pagina se veria un tamaño de letra dependiendo el numero especificado siendo 1 la escala mayor  -->
+            <p> <!-- etiqueta p,define parrafos -->
+                Con diez títulos conseguidos: 1969, 1974, 1975, 1990, 1998, 1999, 2003, Apertura 2005, 2007 y 2010, Liga de Quito es la segunda potencia a nivel nacional.
+
+Es además campeón de la Copa Libertadores, Copa Sudamericana y bicampeón de la Recopa Sudamericana.
+            </p>
+        </div>
+
+        <div class="col-4"> <!-- esta etiqueta nos ayuda a formar una columna -->
+            <img src="assets/img/liga.jpg" class="img-thumbnail"> <!-- esta etiqueta img, nos ayuda a colocar una imagen -->
+        </div>
+
+    </div>
+
+{{> footer }}
+   
